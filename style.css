@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: bisque;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkcyan;
+    color: white;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.header nav {
+    padding-top: 20px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.hero h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.hero p {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.mainwork h3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mainwork {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    position: relative;
+    width: 845px;
+    height: auto;
+    display: block;
+}
+
+.mainwork_image_text {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    background-color: darkcyan;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: bisque;
+}
+
+.subwork_1_2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    position: relative;
+    width: 540px;
+    display: flex;
+    justify-content: center;
+}
+
+.subwork_3_4 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    position: relative;
+    width: 540px;
+    display: flex;
+    justify-content: center;
+}
+
+.subwork_1_image_text {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    background-color: darkcyan;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: bisque;
+}
+
+.subwork_2_image_text {
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    background-color: darkcyan;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: bisque;
+}
+
+.subwork_3_image_text {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    background-color: darkcyan;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: bisque;
+}
+
+.subwork_4_image_text {
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+    background-color: darkcyan;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: bisque;
+}
+
+.contact {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact h5 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+}
+
+.contact nav {
+    padding-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 500px;
+    margin-top: 20px;
+    word-spacing: 40px;
+}
+
+.contact nav ul {
+    list-style-type: none;
+}
+
+.contact nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.contact nav ul li a {
+    color: black;
+}
+
+@media screen and (max-width: 992px) {
+    .mainwork {
+        width: 25%;
+    }
+
+    .subwork {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .mainwork {
+        width: 50%;
+        }
+    .subwork {
+        width: 50%;
+        }
+
+@media screen and (max-width: 576px) {
+    .mainwork {
+        width: 100%;
+        }
+
+    .subwork {
+        width: 100%;
+        }
+    }    
+}

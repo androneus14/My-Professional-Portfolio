@@ -1,10 +1,9 @@
-# My-Professional-Portfolio
+# Updated Professional Portfolio
 
-Our task was to create our very own professional portfolio's that we'll have the opportunity to update as we progress through the course and use for the future. In this task, we had to create a page that specified our names, an about me section, our previous work (or a placeholder until we have actual work to fill in it), and a contact me section.
-We had to create links that went to it's specific section when clicked on, showcase our work with our first application being larger than our other works, and using the media query elements to present a responsive layout of our portfolio when it is viewed through various screen sizes and layouts.
-
-To do this, we had to use what we've learned so far through using html and advanced CSS elements and implementing them into our portfolio.
+Our task this week was to update our professional portfolio's that we created previously in week 2. In this task, we need to add our first student project, and two homework tasks that we've done throughout the year, as well as links to those projects. We also had to update our GitHub profiles, resumes as well as our LinkedIn profiles. 
 
 link: https://androneus14.github.io/My-Professional-Portfolio/
 
-![image](https://user-images.githubusercontent.com/98381243/156493259-728c725f-8b1a-4d43-af52-119bfb9ae62c.png)
+![Portfolio (1)](https://user-images.githubusercontent.com/98381243/163959207-b4d91f99-a200-41e8-969c-ef0c67f326ca.png)
+
+![Portfolio (2)](https://user-images.githubusercontent.com/98381243/163959269-36b4f894-2867-46a0-81dd-eaeaa2a5ef72.png)

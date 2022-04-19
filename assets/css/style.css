@@ -5,15 +5,20 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+:root {
+    --color1: #51007a;
+    --color2: #ffffff;
+    --color3: #d3d3d3;
+}
+
 body {
-    background-color: bisque;
+    background-color: var(--color3);
 }
 
 .header {
     padding: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: darkcyan;
-    color: white;
+    background-color: var(--color1);
+    color: var(--color3);
 }
 
 .header h1 {
@@ -38,7 +43,7 @@ body {
 }
 
 .header nav ul li a {
-    color: white;
+    color: var(--color3);
     text-decoration: underline;
 }
 
@@ -86,13 +91,13 @@ body {
     position: absolute;
     bottom: 40px;
     left: 10px;
-    background-color: darkcyan;
-    color: white;
+    background-color: var(--color1);
+    color: var(--color2);
     padding-left: 20px;
     padding-right: 20px;
     border-style: solid;
     border-width: 2px;
-    border-color: bisque;
+    border-color: var(--color3);
 }
 
 .subwork_1_2 {
@@ -118,58 +123,57 @@ body {
 .subwork_1_image_text {
     position: absolute;
     bottom: 10px;
-    left: 40px;
-    background-color: darkcyan;
-    color: white;
+    left: -300px;
+    background-color: var(--color1);
+    color: var(--color2);
     padding-left: 20px;
     padding-right: 20px;
     border-style: solid;
     border-width: 2px;
-    border-color: bisque;
+    border-color: var(--color3);
 }
 
 .subwork_2_image_text {
     position: absolute;
     bottom: 10px;
-    right: 40px;
-    background-color: darkcyan;
-    color: white;
+    left: 300px;
+    background-color: var(--color1);
+    color: var(--color2);
     padding-left: 20px;
     padding-right: 20px;
     border-style: solid;
     border-width: 2px;
-    border-color: bisque;
+    border-color: var(--color3);
 }
 
 .subwork_3_image_text {
     position: absolute;
     bottom: 10px;
-    left: 50px;
-    background-color: darkcyan;
-    color: white;
+    left: -300px;
+    background-color: var(--color1);
+    color: var(--color2);
     padding-left: 20px;
     padding-right: 20px;
     border-style: solid;
     border-width: 2px;
-    border-color: bisque;
+    border-color: var(--color3);
 }
 
 .subwork_4_image_text {
     position: absolute;
     bottom: 10px;
-    right: 50px;
-    background-color: darkcyan;
-    color: white;
+    left: 300px;
+    background-color: var(--color1);
+    color: var(--color2);
     padding-left: 20px;
     padding-right: 20px;
     border-style: solid;
     border-width: 2px;
-    border-color: bisque;
+    border-color: var(--color3);
 }
 
 .contact {
     padding: 20px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .contact h5 {
@@ -180,7 +184,6 @@ body {
 
 .contact nav {
     padding-bottom: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     display: inline-block;
     margin-left: 500px;
@@ -201,7 +204,12 @@ body {
     color: black;
 }
 
+
+
 @media screen and (max-width: 992px) {
+    .hero {
+        width: 25%;
+    }
     .mainwork {
         width: 25%;
     }
@@ -211,6 +219,9 @@ body {
     }
 }
 @media screen and (max-width: 768px) {
+    .hero {
+        width: 25%;
+    }
     .mainwork {
         width: 50%;
         }
@@ -219,6 +230,9 @@ body {
         }
 
 @media screen and (max-width: 576px) {
+    .hero {
+        width: 25%;
+    }
     .mainwork {
         width: 100%;
         }

@@ -4,11 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <title>My Portfolio</title>
+    
+    <title>Andy Nguyen - My Portfolio</title>
 </head>
 
 <body>
+
+<!-- Header with Navigation Section -->
     <header class="header">
         <h1>ANDY NGUYEN</h1>
         <nav>
@@ -17,95 +25,89 @@
                     <a href="#about-me" class="nav-link">About Me</a>
                 </li>
                 <li>
-                    <a href="#my-work" class="nav-link">Work</a>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#contact-me" class="nav-link">Contact Me</a>
-                </li>
-                <li>
-                    <a href="./assets/resume/My-Resume.pdf" class="nav-link">Resume</a>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
-    
+
+<!-- Avatar Image and Introduction to Me -->
     <section class="hero" id="about-me">
-        <img src="./assets/images/Avatar Image.png" alt="My Avatar Image"/>
+        <img class="pictures" src="./assets/images/Avatar Image.jpg" alt="My Avatar Image"/>
         <div>
             <h2>About Me</h2>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <p class="about-me-text">
+                Welcome to my personal portfolio page! My name is Andy Nguyen and currently, I am studying to become a Full Stack Web Developer through the Monash University Coding Bootcamp.
             </p>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <p class="about-me-text">
+                Through the bootcamp, I have learnt front-end and back-end coding technologies such as HTML, CSS, JavaScript, Git, mySQL and several others. There's still a lot for me to learn and understand but I'm a willing learner.
             </p>
         </div>
     </section>
 
-    <section id="my-work">
-        <div class="mainwork">
-            <h3>Work</h3>
-                <a href="https://rajnori.github.io/IntelliRecipe/"><img src="./assets/images/intellirecipe.png" alt="intellirecipe landing page"></a>
-                    <div class="mainwork_image_text">
-                        <h4>Intellirecipe</h4>
-                        <p>Recipe finding application</p>
-                    </div>
+<!-- Portfolio and My Work Section -->
+    <section id="portfolio">
+        <h3 class="text-center">Portfolio</h3>
+
+        <!-- Coding Projects -->
+        <div class="row mb-2">
+            <div class="col-lg pictures m-2">
+                <a class="imgcontainer" href="https://rajnori.github.io/IntelliRecipe/" target="_blank"><img src="./assets/images/intellirecipe.png" alt="intellirecipe app image"></a>
+                <p>Intellirecipe - Recipe Finding Application for food and cocktails.</p>
+                <a href="https://github.com/RajNori/IntelliRecipe" target="_blank"><p class="picCaption">Intellirecipe GitHub Link</p></a>
+            </div>
         </div>
 
-        <div class="subwork_1_2">    
-                <a href="https://androneus14.github.io/Code-Quiz/"><img src="./assets/images/codingquiz.png" alt="coding quiz landing page"></a>
-                    <div class="subwork_1_image_text">
-                        <h4>Code Quiz</h4>
-                        <p>Test your knowledge on coding!</p>
-                    </div>    
-
-                <a href="https://androneus14.github.io/Password-Generator/"><img src="./assets/images/passwordgenerator.png" alt="password generator landing page"></a>
-                    <div class="subwork_2_image_text">
-                        <h4>Password Generator</h4>
-                        <p>Generate a random password!</p>
-                    </div>       
-        </div>        
-
-       <div class="subwork_3_4">        
-                <a href="https://androneus14.github.io/Work-Day-Scheduler/"><img src="./assets/images/worddayschedular.png" alt="work day schedular landing page"></a>    
-                    <div class="subwork_3_image_text">
-                        <h4>Work Day Scheduler</h4>
-                        <p>Keep track of your busy day here!</p>
-                    </div>
-
-                <a href="https://androneus14.github.io/Weather-Dashboard/"><img src="./assets/images/weatherdashboard.png" alt="melbourne weather dashboard"></a>
-                    <div class="subwork_4_image_text">
-                        <h4>Weather Dashboard</h4>
-                        <p>Check weather for any city in the world!</p>
-                    </div>
+        <div class="row mb-2">
+            <div class="col-lg pictures m-2">
+                <a class="imgcontainer" href="https://together-fitness.herokuapp.com/" target="_blank"><img src="./assets/images/togetherfitness-min.png" alt="together fitness app image"></a>
+                <p>Together Fitness - A Workout and Social Application for everyday users.</p>
+                <a href="https://github.com/androneus14/p2-t3-togetherfitness" target="_blank"><p class="picCaption">Together Fitness GitHub Link</p></a>
+            </div>
         </div>
+
+        <!-- Coding Assignments -->
+        <div class="row">
+            <div class="col-lg pictures m-2">
+                <a class="imgcontainer" href="https://androneus14.github.io/Code-Quiz/" target="_blank"><img src="./assets/images/codingquiz.png" alt="coding quiz image"></a>
+                <p>Coding Quiz - Test your knowledge in coding with this simple quiz!</p>
+                <a href="https://github.com/androneus14/Code-Quiz" target="_blank"><p class="picCaption">Coding Quiz GitHub Link</p></a>
+            </div>
+
+            <div class="col-lg pictures m-2">
+                <a class="imgcontainer" href="https://androneus14.github.io/Password-Generator/" target="_blank"><img src="./assets/images/passwordgenerator.png" alt="password generator image"></a>
+                <p>Password Generator - Create a random password based on specifications you choose!</p>
+                <a href="https://github.com/androneus14/Code-Quiz" target="_blank"><p class="picCaption">Password Generator GitHub Link</p></a>
+            </div>
+            
+            <div class="col-lg pictures m-2">
+                <a class="imgcontainer" href="https://androneus14.github.io/Work-Day-Scheduler/" target="_blank"><img src="./assets/images/worddayschedular.png" alt="workday scheduler image"></a>
+                <p>Work Day Scheduler - Keep track of your busy day with this nifty app!</p>
+                <a href="https://github.com/androneus14/Work-Day-Scheduler" target="_blank"><p class="picCaption">Work Day Scheduler GitHub Link</p></a>
+            </div>
 
         </div>
     </section>
 
+<!-- Contact Information Section -->
+    <footer class="footer" id="contact">
 
-    <section class="contact" id="contact-me">
-        <h5>Contact</h5>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="phone-number" class="nav-link">0427-256-654</a>
-                    </li>
-                    <li>
-                        <a href="email" class="nav-link">andynguyen_3@hotmail.com</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/androneus14" class="nav-link">github.com/androneus14</a>
-                    </li>
-                </ul>
-            </nav>
-    </section>
+        <a target="_blank" href="https://www.linkedin.com/in/andy-nguyen-839901230/"><i class="fab fa-linkedin"></i>LinkedIn</a>
+    
+        <a target="_blank" href="https://github.com/androneus14"><i class="fab fa-github"></i>GitHub</a>
+    
+        <a target="_blank" href="mailto:andynguyen_3@hotmail.com"><i class="fas fa-envelope"></i>Email</a>
+
+        <a target="_blank" href="./assets/resume/My-Resume.pdf"><i class="fas fa-file-pdf"></i> Resume</a>
+        
+        <a target="_blank" href=""><i class="fas fa-phone-volume"></i> Phone</a>
+    
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>

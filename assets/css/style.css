@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 :root {
@@ -63,182 +63,56 @@ body {
     margin-left: 20px;
 }
 
-.hero p {
-    margin-top: 20px;
-    margin-left: 20px;
-    font-size: 13px;
+#about-me-text {
+    font-size: 18px;
 }
 
-.mainwork h3 {
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
     margin-top: 50px;
-    margin-bottom: 30px;
-    font-size: 32px;
-    text-align: center;
-    text-decoration: underline;
-}
-
-.mainwork {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    position: relative;
-    width: 845px;
-    height: auto;
-    display: block;
-}
-
-.mainwork_image_text {
-    position: absolute;
-    bottom: 40px;
-    left: 10px;
-    background-color: var(--color1);
-    color: var(--color2);
-    padding-left: 20px;
-    padding-right: 20px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: var(--color3);
-}
-
-.subwork_1_2 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    position: relative;
-    width: 540px;
-    display: flex;
-    justify-content: center;
-}
-
-.subwork_3_4 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    position: relative;
-    width: 540px;
-    display: flex;
-    justify-content: center;
-}
-
-.subwork_1_image_text {
-    position: absolute;
-    bottom: 10px;
-    left: -300px;
-    background-color: var(--color1);
-    color: var(--color2);
-    padding-left: 20px;
-    padding-right: 20px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: var(--color3);
-}
-
-.subwork_2_image_text {
-    position: absolute;
-    bottom: 10px;
-    left: 300px;
-    background-color: var(--color1);
-    color: var(--color2);
-    padding-left: 20px;
-    padding-right: 20px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: var(--color3);
-}
-
-.subwork_3_image_text {
-    position: absolute;
-    bottom: 10px;
-    left: -300px;
-    background-color: var(--color1);
-    color: var(--color2);
-    padding-left: 20px;
-    padding-right: 20px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: var(--color3);
-}
-
-.subwork_4_image_text {
-    position: absolute;
-    bottom: 10px;
-    left: 300px;
-    background-color: var(--color1);
-    color: var(--color2);
-    padding-left: 20px;
-    padding-right: 20px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: var(--color3);
-}
-
-.contact {
-    padding: 20px;
-}
-
-.contact h5 {
-    text-align: center;
-    text-decoration: underline;
-    font-size: 32px;
-}
-
-.contact nav {
-    padding-bottom: 20px;
-    font-size: 20px;
-    display: inline-block;
-    margin-left: 500px;
-    margin-top: 20px;
-    word-spacing: 40px;
-}
-
-.contact nav ul {
-    list-style-type: none;
-}
-
-.contact nav ul li {
-    display: inline-block;
     margin-left: 20px;
 }
 
-.contact nav ul li a {
-    color: black;
+.pictures {
+    text-align: center;
+    font-size: larger;
 }
 
+.pictures img {
+    width: 100%;
+    height: auto;
+}
 
+.footer {
+    padding: 20px; 
+    background-color: var(--color1);
+    color: var(--color2);
+    text-align: center;
+    font-size: 25px;
+}
 
-@media screen and (max-width: 992px) {
-    .hero {
-        width: 25%;
-    }
-    .mainwork {
-        width: 25%;
-    }
+.footer a {
+    color: var(--color3);
+}
 
-    .subwork {
-        width: 25%;
+a {
+    color: var(--color1);
+}
+
+@media (max-width: 991.98px) {
+    .pictures #bigger {
+        height: 70%;
     }
 }
-@media screen and (max-width: 768px) {
-    .hero {
-        width: 25%;
-    }
-    .mainwork {
-        width: 50%;
-        }
-    .subwork {
-        width: 50%;
-        }
 
-@media screen and (max-width: 576px) {
-    .hero {
-        width: 25%;
+@media (max-width: 575.98px) {
+    #about-me-text {
+        font-size: larger;
     }
-    .mainwork {
-        width: 100%;
-        }
 
-    .subwork {
-        width: 100%;
-        }
-    }    
+    #about-me {
+        padding-top: 5%;
+    }
 }

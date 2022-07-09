@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-- [Description]
-- [Screenshots]
-- [Links]
+- [Description](#description)
+- [Screenshots](#screenshots)
+- [Links](#links)
 
 ## Description
 
